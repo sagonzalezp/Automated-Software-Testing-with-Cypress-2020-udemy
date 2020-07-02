@@ -1,0 +1,28 @@
+{
+  "name": "automated-software-testing-with-cypress-2020-udemy",
+  "version": "1.0.0",
+  "description": "Automated software testing project with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagonzalezp/Automated-Software-Testing-with-Cypress-2020-udemy.git"
+  },
+  "keywords": [
+    "testing",
+    "cypress",
+    "automation",
+    "course"
+  ],
+  "author": "sagonzalezp1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sagonzalezp/Automated-Software-Testing-with-Cypress-2020-udemy/issues"
+  },
+  "homepage": "https://github.com/sagonzalezp/Automated-Software-Testing-with-Cypress-2020-udemy#readme",
+  "dependencies": {
+    "cypress": "^4.9.0"
+  }
+}
