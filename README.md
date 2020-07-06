@@ -20,3 +20,10 @@ A Cypress course from Udemy
     - keywords: testing, cypress, automation, course
     - author: 
     - license: (ISC)
+
+# Walkthrough
+- cypress.json: Here the default Cypress configuration can be overriden.
+- cypress/fixtures/: The fixtures are used as an external piece of static data that can be used in test.
+- cypress/integration/: all the test go here.
+- cypress/plugin/: external cypress extensions can be stored here. i.e: cucumber.
+- cypress/suport/: 
