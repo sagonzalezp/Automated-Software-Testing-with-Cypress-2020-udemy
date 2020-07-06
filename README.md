@@ -1,6 +1,9 @@
 # Automated-Software-Testing-with-Cypress-2020-udemy
 A Cypress course from Udemy
 
+To open the cypress ui type: **npx cypress open**
+To run headless tests type: **npx cypress run**
+
 # Course Contents
 - Setup Cypress project
 - Cypress Basics & API
