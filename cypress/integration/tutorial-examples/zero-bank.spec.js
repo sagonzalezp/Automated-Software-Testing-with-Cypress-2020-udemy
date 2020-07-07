@@ -2,6 +2,13 @@ describe('working with inputs', ()=>{
     before(()=>{
         cy.visit('http://zero.webappsecurity.com/login.html')
     })
+
+    it('should override the current tiem', ()=>{
+        const date = new Date(2020, 3, 10).getTime() //return a timestamp
+        cy.clock(date)
+        cy.log(date)
+    })
+
     it('should fill username', ()=>{
         cy.get('#user_login').as('username')
         cy.get('@username').clear()
