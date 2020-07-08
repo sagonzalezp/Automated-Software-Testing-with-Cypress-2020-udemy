@@ -1,1 +1,12 @@
-{}
+{
+    "baseUrl": "http://www.example.com",
+    "whatchForFileChanges": false,
+    "waitForAnimations": true,
+    "defaultCommandTimeout": 5000,
+    "execTimeout": 60000,
+    "pageLoadTimeout": 15000,
+    "requestTimeout":15000,
+    "responseTimeout": 15000,
+    "video": false,
+    "failOnStatusCode": false 
+}
