@@ -1,5 +1,4 @@
 {
-    "baseUrl": "http://www.example.com",
     "whatchForFileChanges": false,
     "waitForAnimations": true,
     "defaultCommandTimeout": 5000,
